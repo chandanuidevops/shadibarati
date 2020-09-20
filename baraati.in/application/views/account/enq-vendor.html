@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shaadi Baraati</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- header -->
+        <div class="">
+            <nav class="z-depth-1 navbar-fixed">
+                <div class="nav-wrapper white">
+                    <a href="#"><img src="assets/img/logo.png" class="img-responsive brand-logo" alt=""></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text"><i
+                            class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down header-ul ">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">VENDORS</a></li>
+                        <li><a href="#">WED ASSISTANCE</a></li>
+                        <li><a href="#">E-INVITE</a></li>
+                        <li><a href="#">REAL WEDDING</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li class="br-lo"><a>LOGIN </a><span class="l-d">|</span></li>
+                        <li class="br-lo"><a>SIGN UP</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">VENDORS</a></li>
+                <li><a href="#">WED ASSISTANCE</a></li>
+                <li><a href="#">E-INVITE</a></li>
+                <li><a href="#">WED ASSISTANCE</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li class="br-lo">
+                    <a>LOGIN | SIGN IN</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- body  -->
+        <section class="dsection">
+            <div class="container-1">
+                <div class="row m0">
+                    <!-- left menu -->
+                    <div class="col s12 m4 l3">
+                        <div class="sidemenu">
+                            <div class="card-panel   profile-box">
+                                <a href="" class=" pb-edit btn-floating btn-flat waves-effect waves-light"><i class="material-icons">edit</i></a>
+                                <div class="pb-pic">
+                                    <img src="https://anthemunited.com/app/uploads/2016/12/steve-lepan.jpg" alt="" >
+                                </div>
+                                <div class="pb-content center-align">
+                                    <h6 class="white-text ">Profile name</h6>
+                                </div>
+                            </div>
+                            <div class="">
+                                <ul class="sidemenu-list-container z-depth-1">
+                                    <li>
+                                        <a href=""> <i class=" material-icons ">person</i> Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class=" material-icons ">favorite</i> Shortlisted Vendor's</a>
+                                    </li>
+
+                                    <li>
+                                        <a href=""><i class=" material-icons ">comment</i> Enquired Vendor's</a>
+                                    </li>
+
+                                    <li>
+                                        <a href=""><i class=" material-icons ">settings</i> Account Settinds</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- end left menu -->
+
+                    <div class="col s12 m8 l9">
+                        <div class="card">
+                                <div class="chead">
+                                        <p class="truncate">Enquired Vendor's</p>
+                                    </div>
+                            <div class="">
+                                
+                                <div class="cboady">
+                                    <ul>
+                                        <li v-for="item in list">
+                                            <div class="list-item">
+                                                <div class="row m0">
+                                                    <div class="col s12 m6 l7">
+                                                        <div class="list-item-head">
+                                                            <a href="" class="truncate">Shishri Gaurav Photography</a>
+                                                        </div>
+                                                        <div class="span-div truncate">
+                                                            <span><i class=" material-icons ">location_on</i> Location</span>
+                                                            <span><i class=" material-icons ">call</i> 0123 456 789</span>
+                                                            <span><i class=" material-icons ">email</i> testing@test.com</span>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="col s6 m4 l3">
+                                                        <a href="#!" class="btn-small l50 btn-flat waves-effect waves-light">Vendor Detail</a>
+                                                    </div>
+                                                    <div class="col s6 m2 l2">
+                                                            <span class=" badge green"><i class=" material-icons ">star</i> 5.0</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                list:[
+                    { id: '1' },
+                    { id: '1' },
+                    { id: '1' },
+                    { id: '1' },
+                    { id: '1' },
+                    
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>

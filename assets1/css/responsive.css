@@ -1,0 +1,726 @@
+    @media(min-width:992px) and (max-width:1199px) {}
+    
+    @media(min-width:768px) and (max-width:991px) {
+        #mynav ul li a {
+            padding: 10px 8px;
+            font-size: 14px;
+        }
+        .section_padding {
+            padding: 50px 0
+        }
+        .all_heading h2 {
+            font-size: 40px;
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            line-height: 80px;
+            padding-bottom: 10px
+        }
+        .all_heading img {
+            padding-bottom: 20px
+        }
+        #slider .slid_div {
+            height: 400px !important;
+            background-position: center !important;
+            background-size: cover !important;
+            background-repeat: no-repeat !important;
+        }
+        .slide-caption h6 {
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 78px;
+            font-weight: 700;
+            padding-bottom: 10px;
+            color: #fff
+        }
+        .slide-caption {
+            padding: 0
+        }
+        .slide-caption h2 {
+            font-size: 30px;
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            color: #fff;
+            padding: 0
+        }
+        .caprion_wrapper {
+            position: absolute;
+            z-index: 99;
+            top: 40%;
+            width: 100%;
+            left: 0;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+        }
+        /* ==================== 
+  counter part css start
+===================== */
+        #counter_part {
+            position: relative;
+        }
+        .counter_txt {
+            padding: 20px 0;
+            background: #ed516a;
+            color: #fff
+        }
+        .counter_txt .counter {
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 42px;
+            font-weight: 600;
+            text-align: center
+        }
+        .counter p {
+            padding-top: 10px
+        }
+        /* ==================== 
+  counter part css end
+===================== */
+        .welcome_txt h2 {
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            font-size: 40px
+        }
+        .welcome_txt h6 {
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            text-align: center;
+            color: #ed516a;
+            margin-bottom: 20px
+        }
+        /* ==================== 
+  event part  css start
+===================== */
+        .event-heading h2 {
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 14px;
+            color: #fff
+        }
+        .event-heading img {
+            margin: 10px 0;
+        }
+        .event h2 {
+            padding: 20px 0;
+            background: #ed516a;
+            color: #fff;
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 34px
+        }
+        .event {
+            margin-bottom: 20px
+        }
+        .event_txt {
+            padding: 20px 0;
+            background: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px
+        }
+        .event_txt {
+            padding: 20px 20px;
+        }
+        .event_txt2 p {
+            padding: 10px 0;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .event_txt img {
+            padding: 10px;
+        }
+        .event_img img {
+            padding-bottom: 10px;
+            width: 100%
+        }
+        /* our service */
+        .single_story_content_inner_title h4 {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 24px;
+            font-weight: 700;
+        }
+        .story-slider:after {
+            display: block
+        }
+        .single_story_content_inner_text p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            padding: 20px 0px;
+        }
+        .item_img_op {
+            margin: 20px auto 0;
+        }
+        .slick-center .item_img_op {
+            transform: scale(1.1);
+        }
+        .story-slider::after {
+            height: 60.7%;
+        }
+        .story-details {
+            margin-top: 30px
+        }
+        .story-details2 {
+            margin-top: 30px
+        }
+        .team_img {
+            margin-left: 60px;
+        }
+        .user_feedback_text p {
+            padding: 0 50px
+        }
+        #love {
+            background: url(../images/tew2.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+            position: relative;
+            z-index: 1;
+            ;
+            height: 400px
+        }
+        .love_txt {
+            margin-top: 20px
+        }
+        .love_txt2 {
+            margin-top: 100px
+        }
+        .love_txt2 p {
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .love_txt h2 {
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            font-size: 50px;
+            color: #fff
+        }
+        .love_txt h2 span {
+            font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+        .love_txt2 img {
+            padding-top: 40px
+        }
+    }
+    
+    @media(min-width:576px) and (max-width:767px) {
+        .content-sub {
+            padding: 20px;
+        }
+        #mynav ul li a {
+            padding: 10px 8px;
+            font-size: 14px;
+        }
+        .section_padding {
+            padding: 50px 0
+        }
+        .all_heading h2 {
+            font-size: 40px;
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            line-height: 80px;
+            padding-bottom: 10px
+        }
+        .all_heading img {
+            padding-bottom: 20px
+        }
+        #slider .slid_div {
+            height: 400px !important;
+            background-position: center !important;
+            background-size: cover !important;
+            background-repeat: no-repeat !important;
+        }
+        .slide-caption h6 {
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 78px;
+            font-weight: 700;
+            padding-bottom: 10px;
+            color: #fff
+        }
+        .slide-caption {
+            padding: 0
+        }
+        .slide-caption h2 {
+            font-size: 30px;
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            color: #fff;
+            padding: 0
+        }
+        .caprion_wrapper {
+            position: absolute;
+            z-index: 99;
+            top: 40%;
+            width: 100%;
+            left: 0;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+        }
+        /* ==================== 
+  counter part css start
+===================== */
+        #counter_part {
+            position: relative;
+        }
+        .counter_txt {
+            padding: 20px 0;
+            background: #ed516a;
+            color: #fff
+        }
+        .counter_txt .counter {
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 42px;
+            font-weight: 600;
+            text-align: center
+        }
+        .counter p {
+            padding-top: 10px
+        }
+        /* ==================== 
+  counter part css end
+===================== */
+        .welcome_txt h2 {
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            font-size: 40px
+        }
+        .welcome_txt h6 {
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            text-align: center;
+            color: #ed516a;
+            margin-bottom: 20px
+        }
+        /* ==================== 
+  event part  css start
+===================== */
+        .event-heading h2 {
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 14px;
+            color: #fff
+        }
+        .event-heading img {
+            margin: 20px 0;
+        }
+        .event h2 {
+            padding: 20px 0;
+            background: #ed516a;
+            color: #fff;
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 34px
+        }
+        .event {
+            margin-bottom: 20px
+        }
+        .event_txt {
+            padding: 20px 0;
+            background: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px
+        }
+        .event_txt2 p {
+            padding: 10px 30px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .event_txt img {
+            padding: 10px;
+        }
+        .event_img img {
+            width: 100%
+        }
+        /* ==================== 
+Story part  css 
+===================== */
+        .story-slider:after {
+            display: none
+        }
+        .story-details p {
+            padding: 10px 25px;
+            text-align: center;
+        }
+        .story-details2 p {
+            padding: 10px 25px;
+            text-align: center;
+        }
+        .story-details1 {
+            text-align: center
+        }
+        .story-details {
+            text-align: center
+        }
+        .item_img_op {
+            margin: 20px auto 30px;
+        }
+        .tahsan4 {
+            display: block;
+        }
+        .service-pad {
+            margin-top: 100px;
+        }
+        .pad2 {
+            margin-top: 100px;
+        }
+        .single_story_content_inner_title h4 {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 24px;
+            font-weight: 700;
+        }
+        .single_story_content_inner_text {
+            display: block
+        }
+        .single_story_content_inner_text p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            padding: 10px 0px;
+        }
+        .user_feedback_text p {
+            padding: 0 50px
+        }
+        #love {
+            background: url(../images/tew2.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+            position: relative;
+            z-index: 1;
+            ;
+            height: 400px
+        }
+        .love_txt {
+            margin-top: 20px
+        }
+        .love_txt2 {
+            margin-top: 20px
+        }
+        .love_txt2 p {
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .love_txt h2 {
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            font-size: 50px;
+            color: #fff
+        }
+        .love_txt h2 span {
+            font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+        .love_txt2 img {
+            padding-top: 40px
+        }
+    }
+    
+    @media(max-width:576px) {
+        #mynav ul li a {
+            padding: 10px 8px;
+            font-size: 14px;
+        }
+        .section_padding {
+            padding: 50px 0
+        }
+        /* all heading part css */
+        .all_heading {}
+        .all_heading h2 {
+            font-size: 40px;
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            line-height: 80px;
+            padding-bottom: 10px
+        }
+        #slider .slid_div {
+            height: 400px !important;
+            background-position: center !important;
+            background-size: cover !important;
+            background-repeat: no-repeat !important;
+        }
+        .slide-caption h6 {
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 78px;
+            font-weight: 700;
+            padding-bottom: 10px;
+            color: #fff
+        }
+        .slide-caption {
+            padding: 0
+        }
+        .slide-caption h2 {
+            font-size: 30px;
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            color: #fff;
+            padding: 0
+        }
+        .caprion_wrapper {
+            position: absolute;
+            z-index: 99;
+            top: 40%;
+            width: 100%;
+            left: 0;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+        }
+        /* ==================== 
+  counter part css start
+===================== */
+        #counter_part {
+            position: relative;
+        }
+        .counter_txt {
+            padding: 20px 0;
+            background: #ed516a;
+            color: #fff
+        }
+        .counter_txt .counter {
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 42px;
+            font-weight: 600;
+            text-align: center
+        }
+        .counter p {
+            padding-top: 10px
+        }
+        /* ==================== 
+  counter part css end
+===================== */
+        /* ==================== 
+  welcome part  css start
+===================== */
+        .welcome_txt h2 {
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            font-size: 40px
+        }
+        .welcome img {
+            width: 100%;
+            margin: 20px 0
+        }
+        .welcome_txt h6 {
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            text-align: center;
+            color: #ed516a;
+            margin-bottom: 20px
+        }
+        /* ==================== 
+  welcome part  css end
+===================== */
+        /* ==================== 
+  event part  css start
+===================== */
+        .event-heading h2 {
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 14px;
+            color: #fff
+        }
+        .event-heading img {
+            margin: 20px 0;
+        }
+        .welcome.welcome_txt {
+            padding: 25px;
+        }
+        .event h2 {
+            padding: 20px 0;
+            background: #ed516a;
+            color: #fff;
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 34px
+        }
+        .event {
+            margin-bottom: 20px
+        }
+        .event_txt {
+            padding: 20px 20px;
+            background: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px
+        }
+        .event_txt2 p {
+            padding: 10px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .event_txt img {
+            padding: 10px;
+        }
+        .event_img img {
+            width: 100%
+        }
+        /* ==================== 
+  event part  css end
+===================== */
+        /* ==================== 
+Story part  css 
+===================== */
+        .story-slider:after {
+            display: none
+        }
+        .story-details p {
+            padding: 10px 25px;
+            text-align: center;
+        }
+        .story-details2 p {
+            padding: 10px 25px;
+            text-align: center;
+        }
+        .story-details2 {
+            text-align: center
+        }
+        .story-details {
+            text-align: center
+        }
+        .single_story_content_date {
+            text-align: center
+        }
+        .item_img_op {
+            margin: 20px auto 30px;
+        }
+        .tahsan4 {
+            display: block;
+        }
+        .service-pad {
+            margin-top: 100px;
+        }
+        .pad2 {
+            margin-top: 100px;
+        }
+        .single_story_content_inner_title h4 {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 24px;
+            font-weight: 700;
+        }
+        .single_story_content_inner_text {
+            display: block
+        }
+        .single_story_content_inner_text p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            padding: 10px 0px;
+        }
+        .user_feedback_text p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #fff;
+            padding: 0 10px;
+            line-height: 24px;
+            margin-top: 30px;
+            text-align: center
+        }
+        .slider_item {
+            margin-top: -100px
+        }
+        #love {
+            background: url(../images/tew2.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+            position: relative;
+            z-index: 1;
+            ;
+            height: 400px
+        }
+        #love:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, .7);
+            z-index: -1
+        }
+        .love_txt {
+            margin-top: 20px
+        }
+        .love_txt2 {
+            margin-top: 20px
+        }
+        .love_txt2 p {
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .love_txt h2 {
+            font-family: 'Great Vibes', cursive;
+            font-weight: 400;
+            font-size: 50px;
+            color: #fff
+        }
+        .love_txt h2 span {
+            font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+        .love_txt2 img {
+            padding-top: 40px
+        }
+        .footer-txt h3 {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 10px;
+            -webkit-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+        }
+        .footer-txt p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            margin-bottom: 30px
+        }
+        .widgets.footer-widgets .widget-quick-links ul li {
+            display: block;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+        }
+        .footer-txt {
+            margin-top: 20px
+        }
+    }

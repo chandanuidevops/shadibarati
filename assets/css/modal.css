@@ -1,0 +1,130 @@
+    #mask {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 99999;
+        background-color: #000;
+        display: none;
+    }
+    
+    #boxes .window {
+        position: fixed;
+        left: 0;
+        top: 0 !important;
+        width: 440px;
+        height: 200px;
+        display: none;
+        z-index: 999999;
+        padding: 20px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    
+    #boxes #dialog {
+        width: 65%;
+        height: auto;
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    #dialog {
+        left: 265px;
+        display: block;
+        top: 0;
+    }
+    
+    .maintext {
+        text-align: center;
+        font-family: "Segoe UI", sans-serif;
+        text-decoration: none;
+    }
+    
+    #lorem {
+        font-family: "Segoe UI", sans-serif;
+        font-size: 12pt;
+        text-align: left;
+    }
+    
+    #popupfoot {
+        font-family: "Segoe UI", sans-serif;
+        font-size: 16pt;
+        padding: 10px 20px;
+    }
+    
+    #popupfoot a {
+        text-decoration: none;
+    }
+    
+    .agree:hover {
+        background-color: #D92A30
+    }
+    
+    .popupoption:hover {
+        background-color: #D1D1D1;
+        color: green;
+    }
+    
+    .popupoption2:hover {
+        color: red;
+    }
+    
+    .close-modal {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        background: black;
+        color: white;
+        font-size: 15px;
+        padding: 7px;
+        cursor: pointer;
+    }
+    /* 13-3-2020 */
+    
+    .file-box .c {
+        border: 1px solid #eeecec;
+    }
+    
+    .submit-color {
+        background: #d92a30 !important;
+        color: white !important;
+    }
+    
+    .previous-color {
+        background: black !important;
+        color: white !important;
+    }
+    
+    @media(max-width:767px) {
+        #boxes .window {
+            position: absolute;
+            left: 0 !important;
+            top: 0 !important;
+        }
+        #boxes #dialog {
+            width: 100%;
+        }
+        .card-modal {
+            padding: 10px;
+        }
+        .wizard-hashtag.hidden-xs {
+            display: none
+        }
+        .close-modal {
+            position: absolute;
+            right: 4px;
+            top: 4px;
+        }
+    }
+    
+    @media(min-width:768px) and (max-width:991px) {
+        #boxes #dialog {
+            width: 97% !important;
+            height: auto;
+            padding: 10px;
+            font-size: 14px;
+        }
+        #boxes .window {
+            position: absolute;
+            left: 15px !important;
+        }
+    }

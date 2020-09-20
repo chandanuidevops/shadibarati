@@ -1,0 +1,2 @@
+[05-Sep-2019 08:24:18 Etc/GMT] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 12288 bytes) in /home/a5ineprojects9/public_html/shaadibaraati/admin-panel/system/database/DB_driver.php on line 1411
+[07-Sep-2019 05:46:40 Etc/GMT] PHP Fatal error:  Call to a member function shortlistcount() on null in /home/a5ineprojects9/public_html/shaadibaraati/admin-panel/application/views/vendors/view-vendor.php on line 79

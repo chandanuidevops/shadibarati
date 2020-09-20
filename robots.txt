@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin-panel/login
+Allow: /
+Sitemap: https://www.shaadibaraati.com/sitemap.xml

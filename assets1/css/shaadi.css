@@ -1,0 +1,757 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css");
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+body::after {
+   
+    display: none;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7;
+    color: 
+    #212529;
+    overflow-x: hidden;
+}
+.bodybg{
+    background-image: url(../img2/seamless.png);
+}
+.navbar-brand{
+    padding: 0;
+}
+.navbar-bg{
+    background: #000000c4;
+}
+.nav-link{
+    color: white;
+}
+.nav-link.active, .nav-link:hover{
+    color: #d0021b;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+.main-hero {
+    height: 100%;
+    overflow: hidden;
+}
+.c-hero-banner--main {
+    height: 100%;
+}
+.c-hero-banner {
+    position: relative;
+}
+.c-hero-banner__image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.banner-text {
+    position: absolute;
+    bottom: 50px;
+    right: 46px;
+    width: 700px;
+    min-height: 700px;
+    background: url(../img2/banner-textBg.png) no-repeat top left;
+    text-align: center;
+    background-size: 100% auto;
+}
+.banner-text .title {
+    display: block;
+    padding: 172px 0 0 0;
+}
+.banner-text .title h1 {
+    display: inline-block;
+    width: 100%;
+    max-width: 456px;
+    line-height: 60px;
+    font-size: 70px;
+    color: #d81b60;
+    margin: 0px;
+    font-weight: normal;
+}
+.banner-text .date {
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 36px;
+    color: #000000;
+    font-family: 'Redressed', cursive;
+}
+.c-hero-banner .mask {
+    position: absolute;
+    bottom: -5px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    display: inline-block;
+    vertical-align: middle;
+}
+.love-story {
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+	padding-top: 50px;
+}
+.love-story::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 143px;
+    height: 186px;
+    background: url(../img2/ls-flower.png) no-repeat;
+}
+.love-story__flower-parallax {
+    left: 20px;
+    top: 150px;
+}
+.parallax {
+    z-index: 99;
+}
+.love-story__flowers {
+    max-width: 300px;
+    padding-bottom: 30px;
+}
+.title {
+    font-size: 44px;
+}
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.title--special {
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+h1, h3, h4, h5, h6, figure {
+    font-weight: 400;
+}
+a:hover{
+    text-decoration: none;
+}
+.btn-link:hover,.btn-link:focus {
+    text-decoration: none;
+}
+
+.section--blue {
+    background-color: 
+    rgba(109, 148, 142, 0.2);
+    background-blend-mode: color;
+}
+.date-section__flowers {
+    max-width: 300px;
+    padding-bottom: 30px;
+}
+.date-section__block {
+    max-width: 720px;
+    margin: 0 auto;
+}
+.date-section__block {
+    position: relative;
+}
+.date-section__block::after {
+    background-image: url(../img2/leaves-right.png);
+    right: 0;
+}
+.date-section__block::before, .date-section__block::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    width: 239px;
+    height: 231px;
+    top: -12px;
+    background-size: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+}
+.date-section__block::before {
+    background-image: url(../img2/leaves-left.png);
+}
+.timer-item {
+    padding: 0 30px;
+}
+.timer-item {
+    padding: 0 10px;
+}
+.timer__digit {
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 400;
+}
+.timer__text {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.date-section__block .title--special {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.subtitle {
+    width: 50%;
+}
+.subtitle {
+    margin-bottom: 30px;
+}
+.accordion__header {
+    border-bottom: 1px solid 
+    #adadad;
+}
+.accordion__header .btn:hover::after, .accordion__header .btn[aria-expanded="true"]::after {
+    content: '';
+    display: block;
+    background: 
+    #000;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+}
+.accordion__header .btn {
+    position: relative;
+    font-size: 14px;
+    color: 
+    #000;
+}
+.accordion__body {
+    overflow: hidden;
+    padding: 70px 0;
+}
+.accordion__body .row {
+    position: relative;
+}
+.accordion__item-heading {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    line-height: 120px;
+    color: 
+    #ddd;
+    text-transform: uppercase;
+    opacity: 0.7;
+    z-index: 0;
+}
+.accordion__item-heading {
+    font-size: 155px;
+}
+.accordion__item-heading {
+  
+    top: -50px;
+}
+ul {
+    list-style-type: none;
+    margin-left: 0rem;
+}
+ul, ol, dl {
+    line-height: 1.6;
+    margin-bottom: 0;
+    list-style-position: outside;
+    padding: 0;
+}
+.event__info-header {
+    border-top: 1px solid 
+    #adadad;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.wedding_invitation_parallax {
+    background: url(../img2/arrow.png) repeat-x top scroll 
+    #d0021b;
+}
+.about_bottom_bg {
+    background: url(../img2/arrow1.png) repeat-x bottom;
+}
+.about_bottom_bg {
+    padding-bottom: 50px;
+padding-top: 50px;
+margin-bottom: 50px;
+}
+
+.wedding_invitation {
+    background: url(../img2/parallax06.jpg) no-repeat fixed center center;
+    color: #fff;
+}
+.wedding_invitation {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+.rsvp_main {
+    background: url(../img2/parallax04.jpg) no-repeat fixed center center / cover 
+    transparent;
+}
+.rsvp_main {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+.rsvp_main_parallax {
+    background: 
+    rgba(208, 2, 27, 0.77) url(../img2/arrow.png) repeat-x top;
+}
+.rsvp_main_parallax {
+    padding: 50px 0 0;
+}
+.rsvp_main {
+    text-align: center;
+    margin-top: 50px;
+}
+.rsvp_bottom_bg {
+    background: url(../img2/arrow1.png) repeat-x bottom;
+}
+.rsvp_bottom_bg {
+    padding-bottom: 50px;
+}
+.rsvp_main_parallax h2 {
+    text-shadow: 0 1px 1px 
+    rgba(251,251,251,.5);
+    font-family: 'Dancing Script', cursive;
+font-size: 36px;
+color: white;
+}
+.rsvp_main_parallax h2 {
+    padding: 0;
+}
+.devider_main {
+    padding: 0px 0 7px;
+    text-align: center;
+}
+.rsvp_main_parallax p {
+    color: #fff;
+}
+#rsvp-form {
+    display: inline-table;
+    width: 90%;
+    margin-bottom: 50px;
+    padding: 0;
+}
+.input_text_w {
+    border-color: 
+    rgba(0,0,0,.3);
+}
+.input_text_w {
+    color: #dfdfdf;
+background:
+    rgba(251,251,251,.2);
+}
+.input_text_w {
+    background: none repeat scroll 0 0 transparent;
+    border: 0;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+    border-bottom: 2px solid;
+        border-bottom-color: currentcolor;
+    border-left: 1px solid;
+        border-left-color: currentcolor;
+    font-family: Lora,serif;
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px 0 0;
+    padding: 12px 15px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+.input_button_w {
+    background: none repeat scroll 0 0 
+rgba(0,0,0,.8);
+color:
+    #fff;
+}
+.input_button_w {
+    border: 0;
+    font-family: Lora,serif;
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px 0 0;
+    padding: 15px 10px;
+    transition: all .5s ease 0s;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+.coptext {
+    background: #d0021b;
+    color: white;
+    padding: 15px 0px;
+    margin-top: 50px;
+}
+.coptext p {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.coptext a {
+    color: #eeddd0;
+}
+.mainsection{
+    padding: 50px 0px;
+}
+.box-wedding {
+    text-align: center;
+}
+.box-wedding .people img {
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	border: 3px solid #d0021b;
+}
+.box-wedding .people-info .name::after {
+	right: -40px;
+}
+.box-wedding .people-info .name::before, .box-wedding .people-info .name::after {
+	position: absolute;
+	content: '';
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	top: -16px;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.box-wedding .people-info .name::before {
+	left: -40px;
+}
+.box-wedding .people-info .name {
+	background-color: #333333;
+	color: #ffffff;
+	position: relative;
+	padding: 5px 30px;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 30px;
+    margin-top: -55px;
+   
+}
+.box-wedding .people-info .position {
+	color: #d0021b;
+    margin-top: 0;
+    font-family: 'Dancing Script', cursive;
+}
+.sosmed-icon a {
+	color: #d0021b;
+	background-color: transparent;
+	width: 40px;
+	height: 40px;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 0;
+}
+.sosmed-icon.icon-bg-primary a:hover {
+	color: #333333;
+}
+.sosmed-icon.icon-bg-primary a {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	color: #ffffff;
+	background-color: #d0021b;
+	margin: 0 2px;
+}
+.pita.pita-primary {
+	background-color: #d0021b;
+	text-align: right;
+}
+.pita.pita-primary::before {
+	right: auto;
+	left: 80px;
+	top: 20px;
+}
+.pita::before {
+	position: absolute;
+	content: '';
+	width: 20px;
+	height: 20px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #ffffff;
+	right: 80px;
+	top: 20px;
+}
+.pita {
+	color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+	font-size: 36px;
+}
+.pita {
+	background-color: #333333;
+	color: #ffffff;
+	position: relative;
+	padding: 5px 30px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+.box-people .people-info .name {
+	font-size: 24px;
+	font-weight: 700;
+}
+.pita.pita-primary::after {
+	right: auto;
+	left: -40px;
+	top: -8px;
+}
+.pita::after {
+	position: absolute;
+	content: '';
+	width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+	right: -40px;
+	top: -8px;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.box-people.row-reverse {
+	text-align: right;
+}
+.box-people {
+	position: relative;
+	box-sizing: border-box;
+	
+	margin-bottom: 20px;
+}
+.box-people .people img {
+	margin: 0 auto;
+	width: 160px;
+	height: 160px;
+	border: 3px solid #d0021b;
+}
+.box-people .people-info .position {
+    color: #d0021b;
+    font-family: 'Dancing Script', cursive;
+}
+.box-people .people-info .position::before, .box-people .people-info .position::after {
+	content: ' - ';
+}
+.main{
+    padding-bottom: 50px;
+}
+.box-people.row-revers .people-info {
+	margin-top: 55px;
+}
+.loc{
+    position: relative;
+    margin-left: 25px;
+}
+.loc i {
+	position: absolute;
+	left: -25px;
+	top: 6px;
+	color: #d0021b69;
+	font-size: 20px;
+}
+.tt {
+	font-size: 20px;
+}
+.cd {
+	font-weight: 700;
+	font-size: 30px;
+}
+.rec{
+    margin-top: 67px;
+}
+.rsvpname h5 {
+	color: white;
+	font-size: 18px;
+}
+.rsvpname h4 {
+	font-size: 30px;
+	color: white;
+    font-weight: 700;
+    
+}
+.rsvpname h4 span{
+    font-family: 'Dancing Script', cursive;
+}
+
+#events {
+	padding-bottom: 0px;
+}
+@media (min-width:991px){
+    .navbar-nav.ml-auto {
+        margin-right: 120px;
+    }
+    
+}
+@media (max-width:991px){
+    .banner-text .title {
+        padding: 92px 0 0 0;
+    }
+    .banner-text .title h1 {
+      
+        max-width: 456px;
+        line-height: 42px;
+        font-size: 46px;
+
+    }
+    .banner-text {
+	position: absolute;
+	bottom: 50px;
+	right: 46px;
+	width: 456px;
+	min-height: 700px;
+	background: url(../img2/banner-textBg.png) no-repeat top left;
+	text-align: center;
+	background-size: 100% auto;
+	top: 0;
+}
+.banner-text .title {
+    display: block;
+    padding: 93px 0 0 0;
+}
+.line img{
+    width: 200px;
+}
+.banner-text .date {
+    line-height: 27px;
+    font-size: 30px;
+}
+.statest {
+    font-size: 28px;
+}
+.banner-text .title h1 {
+    line-height: 27px;
+    font-size: 30px;
+}
+}
+@media (max-width:767px){
+    .love-story p,.subtitle {
+        width: 100%;
+    }
+    .love-story::before, .love-story__flower-parallax img,.date-section__block::before,.date-section__block::after{
+        display: none;
+    }
+    .image_resized {
+        max-width: 50%;
+    }
+    .col-md-6.text-left .accordion__item-subheading {
+        margin-top: 10px;
+    }
+    .accordion__body {
+        padding: 26px 0;
+    }
+    .banner-text {
+        position: absolute;
+        right: -40px;
+        width: 345px;
+        min-height: 343px;
+        top: -37px;
+    }
+    .banner-text .title {
+        display: block;
+        padding: 61px 0 0 0;
+    }
+    .line img{
+        width: 200px;
+    }
+    .banner-text .date {
+        line-height: 27px;
+        font-size: 17px;
+    }
+    .statest {
+        font-size: 20px;
+    }
+    .banner-text .title h1 {
+        line-height: 27px;
+        font-size: 30px;
+    }
+}
+@media (max-width:575px){
+    .navbar-brand img{
+        width: 200px;
+    }
+    .love-story__flowers img{
+        width: 200px;
+    }
+    .title {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .love-story__flowers {
+        padding-bottom: 7px;
+    }
+    .love-story {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .about_bottom_bg {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .mainsection {
+        padding: 20px 0px;
+    }
+    .date-section__block .title--special {
+        font-size: 25px;
+        line-height: 13px;
+        margin-bottom: 18px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .timer__digit {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .rsvp_main_parallax {
+        padding: 20px 0 0;
+    }
+    .rsvp_main {
+        margin-top: 20px;
+    }
+    .rsvp_main_parallax h2 {
+        font-size: 26px;
+    }
+    .rsvp_bottom_bg {
+        padding-bottom: 20px;
+    }
+    .coptext {
+        margin-top: 20px;
+    }
+    .pita.pita-primary,.pita.pita-secondary ,.name{
+        font-size: 25px;
+    }
+    .main{
+        padding-bottom: 20px;
+    }
+}

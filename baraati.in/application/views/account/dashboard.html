@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shaadi Baraati</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- header -->
+        <div class="">
+            <nav class="z-depth-1 navbar-fixed">
+                <div class="nav-wrapper white">
+                    <a href="#"><img src="assets/img/logo.png" class="img-responsive brand-logo" alt=""></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text"><i
+                            class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down header-ul ">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">VENDORS</a></li>
+                        <li><a href="#">WED ASSISTANCE</a></li>
+                        <li><a href="#">E-INVITE</a></li>
+                        <li><a href="#">REAL WEDDING</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li class="br-lo"><a>LOGIN </a><span class="l-d">|</span></li>
+                        <li class="br-lo"><a>SIGN UP</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">VENDORS</a></li>
+                <li><a href="#">WED ASSISTANCE</a></li>
+                <li><a href="#">E-INVITE</a></li>
+                <li><a href="#">WED ASSISTANCE</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li class="br-lo">
+                    <a>LOGIN | SIGN IN</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- body  -->
+        <section class="dsection">
+            <div class="container-1">
+                <div class="row m0">
+                    <!-- left menu -->
+                    <div class="col s12 m4 l3">
+                        <div class="sidemenu">
+                            <div class="card-panel   profile-box">
+                                <a href="" class=" pb-edit btn-floating btn-flat waves-effect waves-light"><i class="material-icons">edit</i></a>
+                                <div class="pb-pic">
+                                    <img src="https://anthemunited.com/app/uploads/2016/12/steve-lepan.jpg" alt="" >
+                                </div>
+                                <div class="pb-content center-align">
+                                    <h6 class="white-text ">Profile name</h6>
+                                </div>
+                            </div>
+                            <div class="">
+                                <ul class="sidemenu-list-container z-depth-1">
+                                    <li>
+                                        <router-link to="/foo"><i class=" material-icons ">person</i> Profile</router-link>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class=" material-icons ">favorite</i> Shortlisted Vendor's</a>
+                                    </li>
+
+                                    <li>
+                                        <a href=""><i class=" material-icons ">comment</i> Enquired Vendor's</a>
+                                    </li>
+
+                                    <li>
+                                        <a href=""><i class=" material-icons ">settings</i> Account Settinds</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- end left menu -->
+
+                    <div class="col s12 m8 l9">
+                        <div class="card">
+                            <div class="d-boby">
+                                <div class="gary d-profile-heder"> </div>
+                                <div class="d-profile-box">
+                                    <div class="dpb-img left">
+                                        <img class="responsive-img " src="https://anthemunited.com/app/uploads/2016/12/steve-lepan.jpg" alt="">
+                                    </div>
+                                    
+                                    <a class="right btn-floating  btn waves-effect waves-light  profile-edit-btn"><i class="material-icons">edit</i></a>
+                                    <div class="clearfix"></div>
+                                    <ul class="detail">
+                                        <li>
+                                            <span>Name : </span> Profile name
+                                        </li>
+                                        <li>
+                                            <span>Email : </span> Profile@test.com
+                                        </li>
+
+                                        <li>
+                                            <span>Phone : </span> +91 0123 456 789
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <router-view></router-view>
+
+    </div>
+
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.1.2/vue-router.js"></script>
+    <script src="<?php echo base_url()?>assets/js/script.js"></script>
+
+    <script>
+        const Foo = { template: '<h1>test</h1>' }
+
+        const router = new VueRouter({
+            mode: 'history',
+            routes: [
+                { path: '/foo', component: Foo }
+            ]
+        })
+
+        var app = new Vue({
+            router,
+            el: '#app',
+        });
+    </script>
+</body>
+
+</html>

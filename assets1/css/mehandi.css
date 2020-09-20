@@ -1,0 +1,152 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #212529;
+  overflow-x: hidden;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+.navbar-bg {
+  background: #000000c4;
+}
+.nav-link {
+  color: white;
+}
+.custom-navbar .navbar-nav .nav-link {
+	
+	color: white;
+	font-weight: 700;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.custom-navbar .nav-link.active,
+.custom-navbar .nav-link:hover {
+  color: #d0021b!important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.banner img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+.custom-navbar {
+  background-color: #082746ab !important;
+}
+.banner {
+  position: relative;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-size: 90px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  line-height: 67px;
+}
+.title span {
+  color: #d0021b;
+}
+.tt {
+  font-weight: 800;
+  font-size: 24px;
+  color: #ffffff;
+}
+.title_date {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 36px;
+  padding: 20px 0 10px 0;
+}
+span.swirl_left {
+  display: inline-block;
+  background: url("../img3/icon/swirl_left.png") no-repeat left;
+  padding: 0 0 0 130px;
+}
+span.swirl_right {
+  display: inline-block;
+  background: url("../img3/icon/swirl_right.png") no-repeat right;
+  padding: 10px 130px 10px 0px;
+}
+.bride {
+	text-align: center;
+  font-size: 20px;
+  color: #d0021b;
+}
+.name {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+  color: #242424;
+}
+.img-box img{
+    position: relative;
+}
+.main{
+    padding-top: 60px;
+}
+.about_picframe {
+	border: 1px #fff solid;
+	display: block;
+	width: 94%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 90%;
+	margin: 3%;
+	z-index: 777;
+	opacity: 0.4;
+	transition: opacity 0.7s, transform 0.7s;
+	-webkit-transition: opacity 0.7s, -webkit-transform 0.7s;
+}
+
+.st {
+	padding: 30px 10px 0px;
+	text-align: justify;
+}
+
+.quote {
+	font-style: italic;
+	color: #d0021b;
+}
+.hrt {
+	color: #868686;
+	margin-left: 30px;
+}
+.section-title h4{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+}
+.timing{
+  margin-right: 20px;
+}
+.btn-link {
+	color: #1a1a1a;
+}
+.btn-link:hover {
+	text-decoration: none;
+}
